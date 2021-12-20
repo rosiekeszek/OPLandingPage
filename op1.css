@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+body {
+    font-family: 'Roboto';
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    align-self: center;
+    margin-left: 25px;
+}
+
+.navlinks {
+    color: #E5E7EB;
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+}
