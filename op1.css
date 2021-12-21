@@ -2,9 +2,11 @@
 /* CSS Document */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
  
 body {
     font-family: 'Roboto';
+    margin: 0;
 }
 
 .header {
@@ -26,6 +28,7 @@ body {
     list-style-type: none;
     display: flex;
     padding-inline: 200px; 
+    gap: 25px;
 }
 
 .navlinks li {
@@ -71,4 +74,35 @@ body {
     color: #E5E7EB;
     margin-left: 750px;
     margin-top: -260px;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.figures {
+    display: flex;
+    flex; 1;
+    max-width: 160px;
+    margin-left: 270px;
+}
+
+.box {
+    height: 160px;
+    width: 160px;
+    border: solid #3882F6 4px;
+    border-radius: 12px;
+    margin-right: -25px;
+}
+
+.caption {
+    font-size: 16px;
+    text-align: center;
+    width: 160px;
+    padding-left: 5px;
+    
 }
