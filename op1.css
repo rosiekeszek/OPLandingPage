@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,100&display=swap');
  
 body {
     font-family: 'Roboto';
@@ -42,14 +43,14 @@ body {
     padding-top: 30px;
 }
 
-.awesome h1 {
+.website-header {
     font-size: 48px;
     color: #F9FAF8;
     margin-left: 200px;
     max-width: 325px;
 }
 
-.awesome p {
+.subtext {
     font-size: 18px;
     color: #E5E7EB;
     margin-left: 200px;
@@ -104,5 +105,77 @@ body {
     text-align: center;
     width: 160px;
     padding-left: 5px;
-    
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 450px;
+    width: 100%;
+}
+
+.inspiring {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    width: 800px;
+    margin-left: 300px;
+    padding-top: 100px;
+}
+
+.thor {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-left: 800px;
+    margin-top: -30px;
+}
+
+.action {
+    background-color: #3882F6;
+    margin: 110px 220px;
+    border-radius: 12px;
+    height: 150px;
+}
+
+.action-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding-top: 45px; 
+    margin-left: 120px; 
+}
+
+.signup {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 120px; 
+    margin-top: -10px;
+}
+
+.action button {
+    border: solid #F9FAF8;
+    border-radius: 12px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 750px;
+} 
+
+.button {
+    margin-top: -70px;
+}
+
+.copyright {
+    background-color: #1F2937;
+    height: 85px;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 18px;
+}
+
+.copyright p {
+    padding-top: 30px;
 }
